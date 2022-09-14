@@ -1,0 +1,160 @@
+/* Created by Yulia Stefani */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+
+.header{
+    background-image: url(../images/beach.jpg);
+    height: 75vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.nb-left img{
+    width: 100px;
+    height: 75px;
+}
+
+.nb-left{
+    margin: 1vh;
+    margin-left: 4vh;
+}
+
+.nb-right a{
+    color: black;
+    text-decoration: none;
+    margin: 3vw;
+}
+
+.title{
+    color: white;
+    font-size: 10vh;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    color: skyblue;
+}
+
+.content h1{
+    color: white;
+}
+
+.ct-best{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+}
+
+.ct-best-card{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 2vw;
+    margin: 2vw;
+}
+
+.ct-card{
+    margin-inline: 3vw;
+}
+
+.label{
+    text-align: center;
+    color: white;
+    background-color: skyblue;
+}
+
+.ct-best-card1{
+    width: 250px;
+    height: 300px;
+    background-image: url(../images/clothes_1.jpg);
+    background-size: cover;
+}
+
+.ct-best-card2{
+    width: 250px;
+    height: 300px;
+    background-image: url(../images/clothes_2.jpg);
+    background-size: cover;
+}
+
+.ct-best-card3{
+    width: 250px;
+    height: 300px;
+    background-image: url(../images/product_3.jpg);
+    background-size: cover;
+}
+
+.ct-best-card1:hover{
+    background-image: url(../images/hover_1.jpg);
+}
+
+.ct-best-card2:hover{
+    background-image: url(../images/hover_2.jpg);
+}
+
+.ct-best-card3:hover{
+    background-image: url(../images/hover_3.jpg);
+}
+
+.ct-mid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-bottom: 7vh;
+}
+
+.ct-mid p{
+    margin-left: 35vw;
+    margin-right:35vw;
+}
+
+.ct-btm{
+    color: white;
+    padding: 20px;
+}
+
+.ct-mid img{
+    height: 250px;
+    width: 175px;
+    margin-inline: 2vw;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 2vw;
+    color: white;
+    background-color: skyblue;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    margin-inline: 2vw;
+}
+
+.footer img{
+    width: 75px;
+    height: 50px;
+}

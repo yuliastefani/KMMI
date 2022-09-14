@@ -1,0 +1,102 @@
+/* Created by Yulia Stefani */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+
+.header{
+    background-image: url(../images/beach.jpg);
+    height: 75vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.nb-left img{
+    width: 100px;
+    height: 75px;
+}
+
+.nb-left{
+    margin: 1vh;
+    margin-left: 4vh;
+}
+
+.nb-right a{
+    color: black;
+    text-decoration: none;
+    margin: 3vw;
+}
+
+.title{
+    color: white;
+    font-size: 10vh;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.content{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    color: white;
+}
+
+#about{
+    flex: 2;
+    margin: 15px 15px;
+    background-color: white;
+    color: skyblue;
+    padding: 2vw;
+}
+
+#subscribe{
+    flex: 1;
+    margin: 15px 15px;
+    background-color: white;
+    color: skyblue;
+    padding: 2vw;
+}
+
+#subscribe button{
+    color: skyblue;
+    border: none;
+    font-weight: bold;
+}
+
+#subscribe button:hover{
+    color: lightskyblue;
+    background-color: lightgrey;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 2vw;
+    color: white;
+    background-color: skyblue;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    margin-inline: 2vw;
+}
+
+.footer img{
+    width: 75px;
+    height: 50px;
+}
